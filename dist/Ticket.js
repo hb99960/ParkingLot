@@ -1,0 +1,9 @@
+export class Ticket {
+    id;
+    vehicle;
+    constructor(id, vehicle) {
+        this.id = id;
+        this.vehicle = vehicle;
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVGlja2V0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vc3JjL1RpY2tldC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQSxNQUFNLE9BQU8sTUFBTTtJQUNmLEVBQUUsQ0FBUztJQUNYLE9BQU8sQ0FBVztJQUVsQixZQUFZLEVBQVMsRUFBRSxPQUFnQjtRQUNuQyxJQUFJLENBQUMsRUFBRSxHQUFHLEVBQUUsQ0FBQztRQUNiLElBQUksQ0FBQyxPQUFPLEdBQUcsT0FBTyxDQUFDO0lBQzNCLENBQUM7Q0FDSiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IElUaWNrZXQsIElWZWhpY2xlIH0gZnJvbSBcIi4vdHlwZVwiO1xuXG5leHBvcnQgY2xhc3MgVGlja2V0IGltcGxlbWVudHMgSVRpY2tldHtcbiAgICBpZDogc3RyaW5nO1xuICAgIHZlaGljbGU6IElWZWhpY2xlO1xuXG4gICAgY29uc3RydWN0b3IoaWQ6c3RyaW5nLCB2ZWhpY2xlOklWZWhpY2xlKXtcbiAgICAgICAgdGhpcy5pZCA9IGlkO1xuICAgICAgICB0aGlzLnZlaGljbGUgPSB2ZWhpY2xlO1xuICAgIH1cbn0iXX0=

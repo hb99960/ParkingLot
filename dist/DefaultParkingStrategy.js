@@ -1,0 +1,14 @@
+// @ts-expect-error
+class DefaultParkingStrategy {
+    park(floors, vehicle) {
+        for (let floor of floors) {
+            const [slotToBook] = floor.getAvailableSlots(vehicle.type);
+            if (slotToBook) {
+                return slotToBook;
+            }
+        }
+        return null;
+    }
+}
+export {};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGVmYXVsdFBhcmtpbmdTdHJhdGVneS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3NyYy9EZWZhdWx0UGFya2luZ1N0cmF0ZWd5LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBLG1CQUFtQjtBQUNuQixNQUFNLHNCQUFzQjtJQUN4QixJQUFJLENBQUMsTUFBZSxFQUFFLE9BQWlCO1FBRW5DLEtBQUksSUFBSSxLQUFLLElBQUksTUFBTSxFQUFDLENBQUM7WUFDckIsTUFBTSxDQUFDLFVBQVUsQ0FBQyxHQUFHLEtBQUssQ0FBQyxpQkFBaUIsQ0FBQyxPQUFPLENBQUMsSUFBSSxDQUFDLENBQUM7WUFDM0QsSUFBRyxVQUFVLEVBQUMsQ0FBQztnQkFDWCxPQUFPLFVBQVUsQ0FBQztZQUN0QixDQUFDO1FBQ0wsQ0FBQztRQUVELE9BQU8sSUFBSSxDQUFDO0lBQ2hCLENBQUM7Q0FDSiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IElGbG9vciwgSVBhcmtpbmdTdHJhdGVneSwgSVNsb3QsIElWZWhpY2xlIH0gZnJvbSBcIi4vdHlwZVwiO1xuXG4vLyBAdHMtZXhwZWN0LWVycm9yXG5jbGFzcyBEZWZhdWx0UGFya2luZ1N0cmF0ZWd5IGltcGxlbWVudHMgSVBhcmtpbmdTdHJhdGVneXtcbiAgICBwYXJrKGZsb29yczpJRmxvb3JbXSwgdmVoaWNsZTogSVZlaGljbGUpOiBJU2xvdCB8IG51bGwge1xuICAgICAgICBcbiAgICAgICAgZm9yKGxldCBmbG9vciBvZiBmbG9vcnMpe1xuICAgICAgICAgICAgY29uc3QgW3Nsb3RUb0Jvb2tdID0gZmxvb3IuZ2V0QXZhaWxhYmxlU2xvdHModmVoaWNsZS50eXBlKTtcbiAgICAgICAgICAgIGlmKHNsb3RUb0Jvb2spe1xuICAgICAgICAgICAgICAgIHJldHVybiBzbG90VG9Cb29rO1xuICAgICAgICAgICAgfVxuICAgICAgICB9XG5cbiAgICAgICAgcmV0dXJuIG51bGw7XG4gICAgfVxufSJdfQ==

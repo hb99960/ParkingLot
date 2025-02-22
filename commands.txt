@@ -1,0 +1,6 @@
+create_parking_lot PR1234 2 6
+display free_count CAR
+park_vehicle CAR KA-01-DB-1234 black
+park_vehicle CAR KA-02-CB-1334 red
+display free_count CAR
+exit
